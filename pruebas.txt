@@ -1,0 +1,25 @@
+Para usar la  asistente
+{
+    "mensaje": "ver horarios disponibles"
+}
+-----------------------------------------
+Para agendar citas 
+{
+    "id_horario": 9,
+    "id_paciente": 2,
+    "id_servicio": 3,
+    "id_consultorio": 120,
+    "id_profesional": 10
+}
+{
+    "id_horario": 8,
+    "id_paciente": 2,
+    "id_servicio": 3,
+    "id_consultorio": 120,
+    "id_profesional": 10
+}
+-----------------------------------------
+Para cancelar citas
+-----------------------------------------
+
+

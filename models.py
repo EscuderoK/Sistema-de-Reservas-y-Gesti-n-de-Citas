@@ -2,9 +2,18 @@ from sqlalchemy import Column, Integer, String, Date, ForeignKey
 from sqlalchemy.orm import relationship
 from database import Base
 class Afiliacion(Base):
+    """
+    Representa la afiliación de un paciente en la base de datos.
+
+    Attributes:
+    - id_afiliacion (int): Identificador único de la afiliación.
+    - tipo_afiliacion (str): Tipo de afiliación del paciente.
+    """
     __tablename__ = 'afiliacion'
+
     id_afiliacion = Column(Integer, primary_key=True, index=True)
     tipo_afiliacion = Column(String, index=True)
+
 
 class Ciudades(Base):
     __tablename__ = 'ciudad'

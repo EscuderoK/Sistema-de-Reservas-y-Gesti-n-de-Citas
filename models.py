@@ -20,6 +20,8 @@ class Contactos(Base):
     barrio = Column(String)
     email = Column(String)
 
+
+
 class Eps(Base):
     __tablename__ = 'eps'
     id_eps = Column(Integer, primary_key=True, index=True)
